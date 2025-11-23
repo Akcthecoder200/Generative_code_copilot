@@ -4,17 +4,17 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'Code Generation Copilot API',
+      title: 'Generation Code Copilot API',
       version: '1.0.0',
-      description: 'AI-powered code generation API using OpenAI GPT',
+      description: 'AI-powered code generation API using Gemini API',
       contact: {
-        name: 'Amit Godara',
-        url: 'https://github.com/mr-godara/Code-Copilot',
+        name: 'Arvind Kumar',
+        url: 'https://github.com/akcthecoder200/GenerativeAI-Code-Copilot',
       },
     },
     servers: [
       {
-        url: 'http://localhost:5000',
+        url: 'https://generative-code-copilot-backend.onrender.com',
         description: 'Development server',
       },
     ],
