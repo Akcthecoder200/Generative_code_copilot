@@ -15,7 +15,7 @@ const options = {
     servers: [
       {
         url: 'https://generative-code-copilot-backend.onrender.com',
-        description: 'Development server',
+        description: 'Production server',
       },
     ],
     tags: [
