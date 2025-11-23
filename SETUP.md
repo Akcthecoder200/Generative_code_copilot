@@ -103,7 +103,7 @@ DATABASE_URL=sqlite:./database.sqlite
 NODE_ENV=development
 PORT=5000
 DATABASE_URL=postgresql://username:password@localhost:5432/code_copilot
-OPENAI_API_KEY=sk-proj-your-key-here
+GEMINI_API_KEY=sk-proj-your-key-here
 CORS_ORIGIN=http://localhost:5173
 ```
 

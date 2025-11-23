@@ -1,6 +1,6 @@
 # Code Generation Copilot
 
-A modern, full-stack AI-powered code generation application built with React, Node.js, and MySQL. This intelligent system allows users to convert natural language prompts into code across 10+ programming languages, view beautifully syntax-highlighted results, and manage their generation history.
+A fully modern, AI-powered, full-stack application designed to turn natural language prompts into production-ready code. Built with React, Node.js, and MySQL/PostgreSQL, this system supports 10+ languages, provides clean syntax-highlighted output, and maintains a complete history of generated snippets.
 
 ## 🚀 Live Demo
 
@@ -188,7 +188,7 @@ Make sure you have the following installed on your system:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/mr-godara/Code-Copilot.git
+git clone https://github.com/your-user-name/Code-Copilot.git
 cd Code-Copilot
 ```
 
@@ -225,8 +225,8 @@ DATABASE_URL=mysql://root:password@localhost:3306/code_copilot
 # Database (PostgreSQL alternative)
 # DATABASE_URL=postgresql://username:password@localhost:5432/code_copilot
 
-# OpenAI API
-OPENAI_API_KEY=your_openai_api_key_here
+# GEMINI API
+GEMINI_API_KEY=your_gemini_api_key_here
 
 # CORS
 CORS_ORIGIN=http://localhost:5173
@@ -337,10 +337,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👨‍💻 Author
 
-**Built by Dhruv Godara**
+**Built by Arvind Kumar**
 
-- GitHub: [@mr-godara](https://github.com/mr-godara)
-- Repository: [Code-Copilot](https://github.com/mr-godara/Code-Copilot)
+- GitHub: [@akcthecpder200](https://github.com/akcthecoder200)
+- Repository: [Code-Copilot](https://github.com/akcthecoder200/Code-Copilot)
 
 ---
 
