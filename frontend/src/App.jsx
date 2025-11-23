@@ -70,7 +70,7 @@ function App() {
             <span>Built with React, Express.js, and PostgreSQL</span>
           </div>
           {/* <p className="text-sm"></p> */}
-        {/* </footer> */} */}
+        {/* </footer> */} 
       </div>
     </div>
   );
