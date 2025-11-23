@@ -89,7 +89,7 @@ const CodeGenerator = ({ onSuccess }) => {
           {/* Prompt Input */}
           <div>
             <label htmlFor="prompt" className="block text-lg font-semibold text-gray-700 mb-2">
-              Describe what code you want to generate
+              Description Prompt
             </label>
             <textarea
               id="prompt"
@@ -140,7 +140,7 @@ const CodeGenerator = ({ onSuccess }) => {
               className={`flex-1 flex items-center justify-center space-x-2 py-3 rounded-lg font-semibold text-white transition-all duration-200 ${
                 loading
                   ? 'bg-gray-400 cursor-not-allowed'
-                  : 'bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 shadow-lg hover:shadow-xl active:scale-95'
+                  : 'bg-gradient-to-r from-green-200 to-green-400 hover:from-green-600 hover:to-green-700 shadow-lg hover:shadow-xl active:scale-95'
               }`}
             >
               {loading ? (
@@ -151,7 +151,7 @@ const CodeGenerator = ({ onSuccess }) => {
               ) : (
                 <>
                   <FaRocket />
-                  <span>Generate Code</span>
+                  <span className='text-black'>Generate Code</span>
                 </>
               )}
             </button>
